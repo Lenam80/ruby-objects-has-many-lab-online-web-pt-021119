@@ -6,4 +6,6 @@ class Artist
     @artist = artist
   end
 
-  
+  def name
+    if Beyonce?
+     puts "#{name}"
